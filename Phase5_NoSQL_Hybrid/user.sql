@@ -1,0 +1,4 @@
+CREATE USER 'etl_user'@'172.31.22.159' IDENTIFIED BY 'Test@123';
+GRANT SELECT ON aethermart_db.* TO 'etl_user'@'172.31.22.159';
+FLUSH PRIVILEGES;
+EXIT;
